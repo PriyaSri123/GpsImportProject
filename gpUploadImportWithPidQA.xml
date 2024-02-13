@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="environment" value="vnv"></parameter>
+		<parameter name="username"
+			value="surgeon_priya.fiveofive@alcon.testinator.com"></parameter>
+		<parameter name="password" value="Alcon@2024"></parameter>
+		<groups>
+			<run>
+				<include name="upload" />
+				<include name="importwithpid" />
+			</run>
+		</groups>
+		<parameter name="gpsName" value="ToricCNW0TX"></parameter>
+		<parameter name="patientId"
+			value="e60b8d67-2d60-4059-8625-fecb7f33fd9d"></parameter>
+		<classes>
+			<class name="gpsImport.gpsFileCreationToImportCombined" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

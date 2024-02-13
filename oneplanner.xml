@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<parameter name="environment" value="qa"></parameter>
+	<parameter name="username"
+		value="surgeonone.test@alcon.testinator.com"></parameter>
+	<parameter name="password" value="Test@123"></parameter>
+	<test thread-count="5" name="Test">
+	    <parameter name="gpsNameToBeDecoded" value="NonToricSce"></parameter>
+		<parameter name="fhirtype" value="CRS"></parameter>
+		<parameter name="firstName" value="TEST"></parameter>
+		<parameter name="lastName" value="ONEPLANNER-CHECK"></parameter>
+		<parameter name="patientMrn" value="EXTESTONE"></parameter>
+		<parameter name="gender" value="female"></parameter>
+		<parameter name="yyyymmdd" value="2013-08-28"></parameter>
+		<parameter name="gpsfileName" value="NonToricSce"></parameter>
+		<parameter name="dhsAscId"
+			value="c8cb9c75-362f-47b8-b59b-5c00eeae6623"></parameter>
+		<groups>
+			<run>
+				<include name="gpsDecodeAndEncryptUsingB64" />
+				<include name="patientCreation" />
+				<include name="onePlanner" />
+				<include name="getPatientDetailsById" />
+			</run>
+		</groups>
+		<classes>
+			<class name="gpsImport.onePlanner" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

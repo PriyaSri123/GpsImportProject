@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="106.109" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Priyadarshini.m\GPSPROJECT\GPSUploadImportProject\target\test-classes;C:\Users\Priyadarshini.m\GPSPROJECT\GPSUploadImportProject\target\classes;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Priyadarshini.m\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Priyadarshini.m\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Priyadarshini.m\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Priyadarshini.m\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Priyadarshini.m\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Priyadarshini.m\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Priyadarshini.m\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Priyadarshini.m\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Priyadarshini.m\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Priyadarshini.m\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\Priyadarshini.m\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\Priyadarshini.m\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\Priyadarshini.m\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Priyadarshini.m\.m2\repository\org\json\json\20230618\json-20230618.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Priyadarshini.m\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Priyadarshini.m\AppData\Local\Temp\surefire15625495073231424454\surefirebooter-20230720123337427_3.jar C:\Users\Priyadarshini.m\AppData\Local\Temp\surefire15625495073231424454 2023-07-20T12-33-36_528-jvmRun1 surefire-20230720123337427_1tmp surefire_0-20230720123337427_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Priyadarshini.m\GPSPROJECT\GPSUploadImportProject\target\test-classes;C:\Users\Priyadarshini.m\GPSPROJECT\GPSUploadImportProject\target\classes;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Priyadarshini.m\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Priyadarshini.m\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Priyadarshini.m\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Priyadarshini.m\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Priyadarshini.m\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Priyadarshini.m\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Priyadarshini.m\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Priyadarshini.m\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Priyadarshini.m\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Priyadarshini.m\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Priyadarshini.m\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\Priyadarshini.m\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\Priyadarshini.m\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\Priyadarshini.m\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Priyadarshini.m\.m2\repository\org\json\json\20230618\json-20230618.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Priyadarshini.m"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Users\Priyadarshini.m\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Priyadarshini.m\GPSPROJECT\GPSUploadImportProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Priyadarshini.m\AppData\Local\Temp\surefire15625495073231424454\surefirebooter-20230720123337427_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4+8"/>
+    <property name="user.name" value="Priyadarshini.m"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4+8"/>
+    <property name="localRepository" value="C:\Users\Priyadarshini.m\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRIYAD~1.M\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4"/>
+    <property name="user.dir" value="C:\Users\Priyadarshini.m\GPSPROJECT\GPSUploadImportProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Priyadarshini.m\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Priyadarshini.m/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/Priyadarshini.m/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\CCM;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Priyadarshini.m\nrf_connect_sdk\v1.5.0\toolchain\opt\bin;C:\Users\Priyadarshini.m\nrf_connect_sdk\v1.5.0\toolchain\opt\bin\Scripts;C:\Users\Priyadarshini.m\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\TortoiseSVN\bin;C:\Users\Priyadarshini.m\AppData\Local\Microsoft\WindowsApps;C:\Users\Priyadarshini.m\AppData\Local\Programs\Fiddler;C:\Users\Priyadarshini.m\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\opt\apache-maven-3.9.2\bin;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="UrlDetails[qa](1)" classname="gpsImport.gpsFileCreationToImportCombined" time="0.02">
+    <system-out><![CDATA[Environment selected: qa
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getaccesstest[surgeon_priyafour.zeronea@alcon.testinator.com, Alcon@12345](1)" classname="gpsImport.gpsFileCreationToImportCombined" time="10.3">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-auth-services.smartsuite-cataract.com/authorize/oauth2/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				api-version=2
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "grant_type": "password",
+    "username": "surgeon_priyafour.zeronea@alcon.testinator.com",
+    "password": "Alcon@12345"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Thu, 20 Jul 2023 07:03:51 GMT
+Expires: 0
+Logger-Response-Token: 782A5FF89C4F4042BDE897E6649A3F44
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+X-Content-Type-Options: nosniff
+X-Vcap-Request-Id: 0a586f81-60cc-4cf2-6b91-c0fbd05627bd
+X-Xss-Protection: 0
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "scope": "mail",
+    "access_token": "25383317-dcd9-4de7-b9f4-260beeeeaf1c",
+    "refresh_token": "f73d8bb1-bbbb-4e5f-98a7-0c431b0cffff",
+    "token_type": "Bearer",
+    "expires_in": 1799,
+    "user_details": {
+        "sub": "5e5ec8aa-3910-44f5-8328-bf12db0e26fb",
+        "scope": "mail",
+        "iss": "https://iam-client-test.us-east.philips-healthsuite.com/oauth2/access_token",
+        "organizations": {
+            "managingOrganization": "7b7a2b45-f5d8-45bd-98ec-47e115cb6616",
+            "organizationType": "Paid",
+            "isOraSyncEnabled": true,
+            "countryId": "5c3bca36-554a-11e9-9841-0e7bb1dfb3ec",
+            "organizationList": [
+                {
+                    "organizationId": "7b7a2b45-f5d8-45bd-98ec-47e115cb6616",
+                    "organizationName": "44aeb389-282e-4c40-96bc-8d3af7c6c0d0",
+                    "groups": [
+                        "Clinical"
+                    ],
+                    "roles": [
+                        "CLINICAL"
+                    ]
+                }
+            ]
+        },
+        "active": true,
+        "exp": 1689838430,
+        "username": "surgeon_priyafour.zeronea@alcon.testinator.com",
+        "role": "clinical.surgeon",
+        "iamRoles": [
+            "CLINICAL"
+        ],
+        "regions": [
+            "871900ab-e7cd-4e89-9631-ff94c7039c9c"
+        ],
+        "tncAccepted": "yes",
+        "pnpAccepted": "yes",
+        "baaAccepted": "yes",
+        "isRT2DAlgoDataAccess": "NotAllowed",
+        "propositions": [
+            
+        ],
+        "isSSOUser": false,
+        "token_type": "Bearer",
+        "identity_type": "user",
+        "client_id": "AlconQAClient"
+    }
+}
+{"scope":"mail","access_token":"25383317-dcd9-4de7-b9f4-260beeeeaf1c","refresh_token":"f73d8bb1-bbbb-4e5f-98a7-0c431b0cffff","token_type":"Bearer","expires_in":1799,"user_details":{"sub":"5e5ec8aa-3910-44f5-8328-bf12db0e26fb","scope":"mail","iss":"https://iam-client-test.us-east.philips-healthsuite.com/oauth2/access_token","organizations":{"managingOrganization":"7b7a2b45-f5d8-45bd-98ec-47e115cb6616","organizationType":"Paid","isOraSyncEnabled":true,"countryId":"5c3bca36-554a-11e9-9841-0e7bb1dfb3ec","organizationList":[{"organizationId":"7b7a2b45-f5d8-45bd-98ec-47e115cb6616","organizationName":"44aeb389-282e-4c40-96bc-8d3af7c6c0d0","groups":["Clinical"],"roles":["CLINICAL"]}]},"active":true,"exp":1689838430,"username":"surgeon_priyafour.zeronea@alcon.testinator.com","role":"clinical.surgeon","iamRoles":["CLINICAL"],"regions":["871900ab-e7cd-4e89-9631-ff94c7039c9c"],"tncAccepted":"yes","pnpAccepted":"yes","baaAccepted":"yes","isRT2DAlgoDataAccess":"NotAllowed","propositions":[],"isSSOUser":false,"token_type":"Bearer","identity_type":"user","client_id":"AlconQAClient"}}
+accessToken:25383317-dcd9-4de7-b9f4-260beeeeaf1c
+PerftestOrg:7b7a2b45-f5d8-45bd-98ec-47e115cb6616
+]]></system-out>
+  </testcase>
+  <testcase name="alconIntrospect" classname="gpsImport.gpsFileCreationToImportCombined" time="1.689">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-auth-services.smartsuite-cataract.com/authorize/oauth2/introspect
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				api-version=1
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "token": "25383317-dcd9-4de7-b9f4-260beeeeaf1c"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Thu, 20 Jul 2023 07:03:55 GMT
+Expires: 0
+Logger-Response-Token: DDFA17CD109848848EE28D0793D0B91A
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+X-Content-Type-Options: nosniff
+X-Vcap-Request-Id: 176bcab4-5657-4c82-673f-968b117b3441
+X-Xss-Protection: 0
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "sub": "5e5ec8aa-3910-44f5-8328-bf12db0e26fb",
+    "scope": "mail",
+    "iss": "https://iam-client-test.us-east.philips-healthsuite.com/oauth2/access_token",
+    "alconRootOrg": "63dd0b2c-10ad-4b97-bb00-9c0ca0314dc9",
+    "organizations": {
+        "managingOrganization": "7b7a2b45-f5d8-45bd-98ec-47e115cb6616",
+        "organizationList": [
+            {
+                "organizationId": "7b7a2b45-f5d8-45bd-98ec-47e115cb6616",
+                "organizationName": "PPFourDotZerOneA",
+                "groups": [
+                    "Clinical"
+                ],
+                "roles": [
+                    "CLINICAL"
+                ],
+                "permissions": [
+                    "DHS-CRS-ORAACCESS.READ",
+                    "CODESYSTEM.READ",
+                    "PERSON.READ",
+                    "OBSERVATION.WRITE",
+                    "AMS_ACCESS.ALL",
+                    "BASIC.READ",
+                    "OBSERVATION.READ",
+                    "PRACTITIONER.WRITE",
+                    "PERSON.WRITE",
+                    "PROCEDUREREQUEST.READ",
+                    "PASSWORDPOLICY.READ",
+                    "SERVICE.WRITE",
+                    "ORGANIZATION.READ",
+                    "ROLE.READ",
+                    "LIST.WRITE",
+                    "CAREPLAN.READ",
+                    "HSDP_IAM_ORGANIZATION.READ",
+                    "S3CREDS_TENANT.ALL",
+                    "USER.WRITE",
+                    "PASSWORDPOLICY.DELETE",
+                    "STRUCTUREDEFINITION.WRITE",
+                    "GROUP.READ",
+                    "AMS_POLICY.CREATE",
+                    "CARETEAM.READ",
+                    "S3CREDS_POLICY.ALL",
+                    "PASSWORDPOLICY.WRITE",
+                    "PRACTITIONERROLE.READ",
+                    "ROLE.WRITE",
+                    "USER.READ",
+                    "DEVICE.READ",
+                    "HSDP_IAM_ORGANIZATION.CREATE",
+                    "PROPOSITION.WRITE",
+                    "GROUP.WRITE",
+                    "DEVICE.WRITE",
+                    "BUNDLE.READ",
+                    "PRACTITIONERROLE.WRITE",
+                    "AMS_POLICY.ALL",
+                    "LIST.READ",
+                    "AMS_POLICY.DELETE",
+                    "DHS-ALCON-DEVICE.READ",
+                    "S3CREDS_ACCESS.GET",
+                    "DHS-CRS-ORAACCESS.DELETE",
+                    "STRUCTUREDEFINITION.READ",
+                    "SERVICE.SCOPE",
+                    "DHS-CRS-ORAACCESS.UPDATE",
+                    "PROPOSITION.READ",
+                    "PATIENT.WRITE",
+                    "PROCEDUREREQUEST.WRITE",
+                    "CAREPLAN.WRITE",
+                    "SERVICE.READ",
+                    "BASIC.WRITE",
+                    "AMS_POLICY.READ",
+                    "PATIENT.READ",
+                    "CODESYSTEM.WRITE",
+                    "PATIENT.PURGE",
+                    "BUNDLE.WRITE",
+                    "VALUESET.WRITE",
+                    "ORGANIZATION.WRITE",
+                    "DHS-CRS-ORAACCESS.WRITE",
+                    "PRACTITIONER.READ",
+                    "HSDP_IAM_ORGANIZATION.MGMT",
+                    "DHS-CRS-ORAACCESS.ALL",
+                    "CARETEAM.WRITE",
+                    "VALUESET.READ"
+                ]
+            }
+        ]
+    },
+    "active": true,
+    "exp": 1689838430,
+    "username": "surgeon_priyafour.zeronea@alcon.testinator.com",
+    "accessToken": "9tromGQrCdMsNhWwVVSJhWmjJNA",
+    "role": "clinical.surgeon",
+    "regions": [
+        "871900ab-e7cd-4e89-9631-ff94c7039c9c"
+    ],
+    "tncAccepted": "yes",
+    "pnpAccepted": "yes",
+    "baaAccepted": "yes",
+    "isRT2DAlgoDataAccess": "NotAllowed",
+    "propositions": [
+        
+    ],
+    "isSSOUser": false,
+    "token_type": "Bearer",
+    "identity_type": "user",
+    "client_id": "AlconQAClient"
+}
+{"sub":"5e5ec8aa-3910-44f5-8328-bf12db0e26fb","scope":"mail","iss":"https://iam-client-test.us-east.philips-healthsuite.com/oauth2/access_token","alconRootOrg":"63dd0b2c-10ad-4b97-bb00-9c0ca0314dc9","organizations":{"managingOrganization":"7b7a2b45-f5d8-45bd-98ec-47e115cb6616","organizationList":[{"organizationId":"7b7a2b45-f5d8-45bd-98ec-47e115cb6616","organizationName":"PPFourDotZerOneA","groups":["Clinical"],"roles":["CLINICAL"],"permissions":["DHS-CRS-ORAACCESS.READ","CODESYSTEM.READ","PERSON.READ","OBSERVATION.WRITE","AMS_ACCESS.ALL","BASIC.READ","OBSERVATION.READ","PRACTITIONER.WRITE","PERSON.WRITE","PROCEDUREREQUEST.READ","PASSWORDPOLICY.READ","SERVICE.WRITE","ORGANIZATION.READ","ROLE.READ","LIST.WRITE","CAREPLAN.READ","HSDP_IAM_ORGANIZATION.READ","S3CREDS_TENANT.ALL","USER.WRITE","PASSWORDPOLICY.DELETE","STRUCTUREDEFINITION.WRITE","GROUP.READ","AMS_POLICY.CREATE","CARETEAM.READ","S3CREDS_POLICY.ALL","PASSWORDPOLICY.WRITE","PRACTITIONERROLE.READ","ROLE.WRITE","USER.READ","DEVICE.READ","HSDP_IAM_ORGANIZATION.CREATE","PROPOSITION.WRITE","GROUP.WRITE","DEVICE.WRITE","BUNDLE.READ","PRACTITIONERROLE.WRITE","AMS_POLICY.ALL","LIST.READ","AMS_POLICY.DELETE","DHS-ALCON-DEVICE.READ","S3CREDS_ACCESS.GET","DHS-CRS-ORAACCESS.DELETE","STRUCTUREDEFINITION.READ","SERVICE.SCOPE","DHS-CRS-ORAACCESS.UPDATE","PROPOSITION.READ","PATIENT.WRITE","PROCEDUREREQUEST.WRITE","CAREPLAN.WRITE","SERVICE.READ","BASIC.WRITE","AMS_POLICY.READ","PATIENT.READ","CODESYSTEM.WRITE","PATIENT.PURGE","BUNDLE.WRITE","VALUESET.WRITE","ORGANIZATION.WRITE","DHS-CRS-ORAACCESS.WRITE","PRACTITIONER.READ","HSDP_IAM_ORGANIZATION.MGMT","DHS-CRS-ORAACCESS.ALL","CARETEAM.WRITE","VALUESET.READ"]}]},"active":true,"exp":1689838430,"username":"surgeon_priyafour.zeronea@alcon.testinator.com","accessToken":"9tromGQrCdMsNhWwVVSJhWmjJNA","role":"clinical.surgeon","regions":["871900ab-e7cd-4e89-9631-ff94c7039c9c"],"tncAccepted":"yes","pnpAccepted":"yes","baaAccepted":"yes","isRT2DAlgoDataAccess":"NotAllowed","propositions":[],"isSSOUser":false,"token_type":"Bearer","identity_type":"user","client_id":"AlconQAClient"}
+iamAccessToken:9tromGQrCdMsNhWwVVSJhWmjJNA
+]]></system-out>
+  </testcase>
+  <testcase name="getAccess" classname="gpsImport.gpsFileCreationToImportCombined" time="2.071">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://hsdp-alcon-s3creds-qa.us-east.philips-healthsuite.com/core/credentials/Access
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Authorization=9tromGQrCdMsNhWwVVSJhWmjJNA
+				api-version=1
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 20 Jul 2023 07:03:57 GMT
+Server: *
+X-Vcap-Request-Id: 79335bbb-e796-4bc4-6e0b-b4034a84ec2c
+transfer-encoding: chunked
+Connection: keep-alive
+
+[
+    {
+        "allowed": {
+            "resources": [
+                "alcon/pnp/*"
+            ],
+            "actions": [
+                "GET"
+            ]
+        },
+        "credentials": {
+            "accessKey": "ASIA5RVKIJREOQIEXMNC",
+            "secretKey": "eCnU3TELSQooVe98EhgX/eHtxqZaJCQe+WY7I4eP",
+            "sessionToken": "FwoGZXIvYXdzECkaDLUSZvjTMuYH1nvAHyKFArAOVrtWBuCxXsS1mHD9HiZMUGl5Q4B+QK1aJYFsFm3ax795t9Q9o0awMr+VI/Zjd4UywQM8+GdJ9rAA0gLYCOU0lJEVcQGknTKhPLF0WdV+ngqVo7oolOtq2rIy/BbOssjMXSuOUEAeMMUL5TwNBq9yMjmM4tSc/hP91kOG34gBTHRWyCKt0CEwMvx2yPoxKCUgEPuTvTbQyLvo9fHlCctUByOtGzWEHq7/nnAJ2ljUlQLMJeWUvjDI/cy+KxmzxAYKXB+JolAd4hNAbcKN63Nlc2zAxBkiD8Ije2BqskAu72dRchB382EImxALRrEQhuPD3LAuL2sjSGU35vyTmD50ZeRSiyjduOOlBjIpaf+U6gsAllg6qpeHXqoVqDn8xOeRZfQ4VYvKpCNOcD2ptIBo/DoOvz8=",
+            "bucket": "cf-s3-caeb2abc-578c-42cb-930b-313766c0bfee",
+            "expires": "2023-07-20T19:03:57.000"
+        },
+        "resourceType": "Access"
+    },
+    {
+        "allowed": {
+            "resources": [
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/*",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/test-images/*",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/test-images",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/*",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/intra-op-images/*",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/intra-op-images",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/post-op-images/*",
+                "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/post-op-images"
+            ],
+            "actions": [
+                "GET",
+                "PUT",
+                "DELETE",
+                "LIST"
+            ]
+        },
+        "credentials": {
+            "accessKey": "ASIA5RVKIJRECCHFO6WX",
+            "secretKey": "gCoUCOo1sUt6H5QPPWgvrJCh6qlnrQ68zxPB3vIM",
+            "sessionToken": "FwoGZXIvYXdzECkaDIFzjZBiCIwj409kiyLBBL1lo9OPHD4I4/2sMe970iGMjTLPv9MVOm0f9aT5ZvxKAtP2GVF0SFOSMUZ7sBBokvMbLN5PngkcWikheHYgWMtf4Yh1td5dQBbQou3zVjY75JxaqnqSO1PDsCfBKSU6Fwv0uKjm0jDbbFpTrvPG5ogpdJaF4PsmMMoqg/NWEQ1hvlYsU1ii6BWQJr8h7R6heJxP87sZGC+DN96HlEMTvs7WnIaOlq2UD/fn3xCaUqnDLgJBbB5ZUsQz5+hVRcKIMWXgzTjgVZUbq3lRAxO4R4jiBTp1Y6blW4hoa9XnD2JpQIEtBT6RstZuS1rDKc5ysg7ISe0cR8hYGPu4UzMx9AMsA/8tCBPKkfB4xVmCJ/n6/nRsCwpmK4bMBJUbig368KRdqN4UsrfPmZ1uJDSx6xqtm/iQ4ko6Y4Y2O8VYQXF4WCFbTsVd0MacXd3X5d61SVjg7pTCH9HMvSJaK1XHbIy4IJJE4droPwEXj1N/Xa+9xoHlnZcsnCa5IIJMbFw+ZDZriR+RVudiKFn7GG9AjX2kBMp5x2Kly4FEL324M83g0AO52WdEArRxw+fhs06N9yAYYzPuoyK5GCd54Vjv16d2GAtXVhbpnXq5akj4eDOrGEBneYFXesSzat6J3oY1ZWRW16otGFTwWVQ/wjoTxErmkFVLJSIqITD/07JqVngeaBr+gx5FZ+J3RVTPMa9obcIsP21eVObtUAZbDciN4GCO/3U/dYOXENLVNoG3wmtr4A+LRRoc78r4FVkxz7BXmQEo3bjjpQYyKTvCxw/1gK1Y5UerVwVzkId0Go7B/EIqcoGC+dURhTqHcrBEbI15gmvc",
+            "bucket": "cf-s3-caeb2abc-578c-42cb-930b-313766c0bfee",
+            "expires": "2023-07-20T19:03:57.000"
+        },
+        "resourceType": "Access"
+    }
+]
+[{"allowed":{"resources":["alcon/pnp/*"],"actions":["GET"]},"credentials":{"accessKey":"ASIA5RVKIJREOQIEXMNC","secretKey":"eCnU3TELSQooVe98EhgX/eHtxqZaJCQe+WY7I4eP","sessionToken":"FwoGZXIvYXdzECkaDLUSZvjTMuYH1nvAHyKFArAOVrtWBuCxXsS1mHD9HiZMUGl5Q4B+QK1aJYFsFm3ax795t9Q9o0awMr+VI/Zjd4UywQM8+GdJ9rAA0gLYCOU0lJEVcQGknTKhPLF0WdV+ngqVo7oolOtq2rIy/BbOssjMXSuOUEAeMMUL5TwNBq9yMjmM4tSc/hP91kOG34gBTHRWyCKt0CEwMvx2yPoxKCUgEPuTvTbQyLvo9fHlCctUByOtGzWEHq7/nnAJ2ljUlQLMJeWUvjDI/cy+KxmzxAYKXB+JolAd4hNAbcKN63Nlc2zAxBkiD8Ije2BqskAu72dRchB382EImxALRrEQhuPD3LAuL2sjSGU35vyTmD50ZeRSiyjduOOlBjIpaf+U6gsAllg6qpeHXqoVqDn8xOeRZfQ4VYvKpCNOcD2ptIBo/DoOvz8\u003d","bucket":"cf-s3-caeb2abc-578c-42cb-930b-313766c0bfee","expires":"2023-07-20T19:03:57.000"},"resourceType":"Access"},{"allowed":{"resources":["7b7a2b45-f5d8-45bd-98ec-47e115cb6616/*","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/test-images/*","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/test-images","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/*","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/intra-op-images/*","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/intra-op-images","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/post-op-images/*","7b7a2b45-f5d8-45bd-98ec-47e115cb6616/post-op-images"],"actions":["GET","PUT","DELETE","LIST"]},"credentials":{"accessKey":"ASIA5RVKIJRECCHFO6WX","secretKey":"gCoUCOo1sUt6H5QPPWgvrJCh6qlnrQ68zxPB3vIM","sessionToken":"FwoGZXIvYXdzECkaDIFzjZBiCIwj409kiyLBBL1lo9OPHD4I4/2sMe970iGMjTLPv9MVOm0f9aT5ZvxKAtP2GVF0SFOSMUZ7sBBokvMbLN5PngkcWikheHYgWMtf4Yh1td5dQBbQou3zVjY75JxaqnqSO1PDsCfBKSU6Fwv0uKjm0jDbbFpTrvPG5ogpdJaF4PsmMMoqg/NWEQ1hvlYsU1ii6BWQJr8h7R6heJxP87sZGC+DN96HlEMTvs7WnIaOlq2UD/fn3xCaUqnDLgJBbB5ZUsQz5+hVRcKIMWXgzTjgVZUbq3lRAxO4R4jiBTp1Y6blW4hoa9XnD2JpQIEtBT6RstZuS1rDKc5ysg7ISe0cR8hYGPu4UzMx9AMsA/8tCBPKkfB4xVmCJ/n6/nRsCwpmK4bMBJUbig368KRdqN4UsrfPmZ1uJDSx6xqtm/iQ4ko6Y4Y2O8VYQXF4WCFbTsVd0MacXd3X5d61SVjg7pTCH9HMvSJaK1XHbIy4IJJE4droPwEXj1N/Xa+9xoHlnZcsnCa5IIJMbFw+ZDZriR+RVudiKFn7GG9AjX2kBMp5x2Kly4FEL324M83g0AO52WdEArRxw+fhs06N9yAYYzPuoyK5GCd54Vjv16d2GAtXVhbpnXq5akj4eDOrGEBneYFXesSzat6J3oY1ZWRW16otGFTwWVQ/wjoTxErmkFVLJSIqITD/07JqVngeaBr+gx5FZ+J3RVTPMa9obcIsP21eVObtUAZbDciN4GCO/3U/dYOXENLVNoG3wmtr4A+LRRoc78r4FVkxz7BXmQEo3bjjpQYyKTvCxw/1gK1Y5UerVwVzkId0Go7B/EIqcoGC+dURhTqHcrBEbI15gmvc","bucket":"cf-s3-caeb2abc-578c-42cb-930b-313766c0bfee","expires":"2023-07-20T19:03:57.000"},"resourceType":"Access"}]
+]]></system-out>
+  </testcase>
+  <testcase name="getKeys" classname="gpsImport.gpsFileCreationToImportCombined" time="0.454">
+    <system-out><![CDATA[2
+accessKey: ASIA5RVKIJRECCHFO6WX
+secretKey:gCoUCOo1sUt6H5QPPWgvrJCh6qlnrQ68zxPB3vIM
+sessionToken: FwoGZXIvYXdzECkaDIFzjZBiCIwj409kiyLBBL1lo9OPHD4I4/2sMe970iGMjTLPv9MVOm0f9aT5ZvxKAtP2GVF0SFOSMUZ7sBBokvMbLN5PngkcWikheHYgWMtf4Yh1td5dQBbQou3zVjY75JxaqnqSO1PDsCfBKSU6Fwv0uKjm0jDbbFpTrvPG5ogpdJaF4PsmMMoqg/NWEQ1hvlYsU1ii6BWQJr8h7R6heJxP87sZGC+DN96HlEMTvs7WnIaOlq2UD/fn3xCaUqnDLgJBbB5ZUsQz5+hVRcKIMWXgzTjgVZUbq3lRAxO4R4jiBTp1Y6blW4hoa9XnD2JpQIEtBT6RstZuS1rDKc5ysg7ISe0cR8hYGPu4UzMx9AMsA/8tCBPKkfB4xVmCJ/n6/nRsCwpmK4bMBJUbig368KRdqN4UsrfPmZ1uJDSx6xqtm/iQ4ko6Y4Y2O8VYQXF4WCFbTsVd0MacXd3X5d61SVjg7pTCH9HMvSJaK1XHbIy4IJJE4droPwEXj1N/Xa+9xoHlnZcsnCa5IIJMbFw+ZDZriR+RVudiKFn7GG9AjX2kBMp5x2Kly4FEL324M83g0AO52WdEArRxw+fhs06N9yAYYzPuoyK5GCd54Vjv16d2GAtXVhbpnXq5akj4eDOrGEBneYFXesSzat6J3oY1ZWRW16otGFTwWVQ/wjoTxErmkFVLJSIqITD/07JqVngeaBr+gx5FZ+J3RVTPMa9obcIsP21eVObtUAZbDciN4GCO/3U/dYOXENLVNoG3wmtr4A+LRRoc78r4FVkxz7BXmQEo3bjjpQYyKTvCxw/1gK1Y5UerVwVzkId0Go7B/EIqcoGC+dURhTqHcrBEbI15gmvc
+bucketId: cf-s3-caeb2abc-578c-42cb-930b-313766c0bfee
+2
+7b7a2b45-f5d8-45bd-98ec-47e115cb6616/test-images
+]]></system-out>
+  </testcase>
+  <testcase name="fileEdit" classname="gpsImport.gpsFileCreationToImportCombined" time="0.02"/>
+  <testcase name="cmdPromptFn[Argos_validmeasurement](1)" classname="gpsImport.gpsFileCreationToImportCombined" time="51.552">
+    <system-out><![CDATA[GPS Upload function executed
+Output: 
+]]></system-out>
+  </testcase>
+  <testcase name="gpsFileImportWithoutPatientId[Argos_validmeasurement](1)" classname="gpsImport.gpsFileCreationToImportCombined" time="37.904">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://qa-observation.smartsuite-cataract.com/observation/fhir/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/Observation
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Authorization=25383317-dcd9-4de7-b9f4-260beeeeaf1c
+				User-Agent=PostmanRuntime/7.30.0
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "Observation/1",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "observation-type-pre-op",
+                            "display": "observation-type-pre-op"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2019-10-08T19:23:00+00:00",
+                "performer": [
+                    {
+                        "reference": "Practitioner/fcfb91bb-ca50-4e80-9648-6d242ea08338",
+                        "display": "Surgeon CRS"
+                    }
+                ],
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://alcon.dhs.com/fhir/us/codes",
+                                    "code": "OD",
+                                    "display": "OD"
+                                }
+                            ]
+                        },
+                        "valueString": "OD"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            }
+        },
+        {
+            "fullUrl": "Observation/2",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "2",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "observation-type-image",
+                            "display": "observation-type-image"
+                        }
+                    ]
+                },
+                "related": [
+                    {
+                        "type": "derived-from",
+                        "target": {
+                            "reference": "Observation/1"
+                        }
+                    }
+                ],
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://alcon.dhs.com/fhir/us/codes",
+                                    "code": "observation-image-content-type",
+                                    "display": "observation-image-content-type"
+                                }
+                            ]
+                        },
+                        "valueString": "gps"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://alcon.dhs.com/fhir/us/codes",
+                                    "code": "observation-image-relative-path",
+                                    "display": "observation-image-relative-path"
+                                }
+                            ]
+                        },
+                        "valueString": "7b7a2b45-f5d8-45bd-98ec-47e115cb6616/test-images/Argos_validmeasurement.gps"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            }
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Thu, 20 Jul 2023 07:05:27 GMT
+Expires: 0
+Pragma: no-cache
+Requestid: 8bc36c45-8002-475b-a4a8-37f1a37e1430
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Vcap-Request-Id: 331365d6-9f77-4954-77cc-01334dd01738
+X-Xss-Protection: 0
+Content-Length: 3937
+Connection: keep-alive
+
+{
+    "resourceType": "Bundle",
+    "type": "transaction-response",
+    "entry": [
+        {
+            "fullUrl": "https://cdr-alcon-qa.us-east.philips-healthsuite.com/store/fhir/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/Patient/ac91fb58-581b-48f0-b2f0-5258f4902423",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "ac91fb58-581b-48f0-b2f0-5258f4902423",
+                "meta": {
+                    "versionId": "ce1ff558-26cb-11ee-9971-c3fe815ad9f8",
+                    "lastUpdated": "2023-07-20T07:05:27.32524+00:00",
+                    "tag": [
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "created-by-crs",
+                            "display": "created-by-crs"
+                        },
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "reconcilliation-needed",
+                            "display": "reconcilliation-needed"
+                        },
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "patient-paid-practice",
+                            "display": "patient-paid-practice"
+                        },
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "case-unassigned",
+                            "display": "case-unassigned"
+                        }
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://alcon.dhs.com/fhir/us/extensions/patient-additional-profile-information",
+                        "valueString": "{\"consultationStageStatusOd\":\"Incomplete\",\"consultationStageStatusOs\":\"Incomplete\",\"odActiveCaseStatus\":\"false\",\"workflowStatusOd\":\"patient-workflow-status-add-new-procedure\",\"osActiveCaseStatus\":\"false\",\"workflowStatusOs\":\"patient-workflow-status-add-new-procedure\",\"organizationName\":\"PPFourDotZerOneA\"}"
+                    },
+                    {
+                        "url": "http://alcon.dhs.com/fhir/us/extensions/patient-simple-list-summary",
+                        "valueString": "[{\"careTeamReferences\":[],\"careTeams\":[],\"caseName\":\"Default\",\"caseStatus\":\"In-Progress\",\"eye\":\"OU\",\"eyeAssessment\":{\"lastUpdated\":\"2023-07-20T07:05:25+00:00\",\"guid\":\"d56751ff-99e6-40d0-af0f-ed8ca40ab3ab\",\"leftOs\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false},\"rightOd\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false}},\"guid\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"lastUpdated\":\"2023-07-20T07:05:27+00:00\",\"status\":\"Measurement,Complete,Consultation,Incomplete,Planning,Incomplete,Intra-Op,Incomplete,Post-Op,Incomplete\",\"surgeryType\":\"\",\"tags\":[]}]"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v2/0203",
+                                    "code": "MR",
+                                    "display": "Medical Record Number"
+                                }
+                            ]
+                        },
+                        "system": "http://alcon.dhs.com/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/mrn",
+                        "value": "5PH1J7EUEKYKNW12"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "DAVID COPPERFIELD",
+                        "family": "COPPERFIELD",
+                        "given": [
+                            "DAVID"
+                        ]
+                    }
+                ],
+                "gender": "unknown",
+                "birthDate": "1992-01-01",
+                "managingOrganization": {
+                    "reference": "Organization/7b7a2b45-f5d8-45bd-98ec-47e115cb6616"
+                }
+            },
+            "response": {
+                "status": "200 OK",
+                "etag": "W/\"ce1ff558-26cb-11ee-9971-c3fe815ad9f8\"",
+                "lastModified": "2023-07-20T07:05:27.32524+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://cdr-alcon-qa.us-east.philips-healthsuite.com/store/fhir/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/CarePlan/c38e3312-313a-43e5-8983-5bf98a18400c",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "c38e3312-313a-43e5-8983-5bf98a18400c",
+                "meta": {
+                    "versionId": "ce33b264-26cb-11ee-9971-c7683f534047",
+                    "lastUpdated": "2023-07-20T07:05:27.32524+00:00",
+                    "tag": [
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "created-by-crs",
+                            "display": "created-by-crs"
+                        },
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "reconcilliation-needed",
+                            "display": "reconcilliation-needed"
+                        },
+                        {
+                            "system": "http://alcon.dhs.com/fhir/us/codes",
+                            "code": "patient-paid-practice",
+                            "display": "patient-paid-practice"
+                        }
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://alcon.dhs.com/fhir/us/extensions/careplan-cataractplanner-details",
+                        "valueString": "[{\"carePlanResourceStatus\":\"In-Progress\",\"caseName\":\"Default\",\"excludeFromOptimizations\":false,\"notes\":[],\"procedureRequests\":[],\"status\":\"Measurement,Complete,Consultation,Incomplete,Planning,Incomplete,Intra-Op,Incomplete,Post-Op,Incomplete\",\"surgicalPlans\":[],\"surgicalPlanGuids\":[],\"eye\":\"OU\",\"eyeAssessment\":{\"lastUpdated\":\"2023-07-20T07:05:25+00:00\",\"guid\":\"d56751ff-99e6-40d0-af0f-ed8ca40ab3ab\",\"leftOs\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false},\"rightOd\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false}},\"guid\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"lastUpdated\":\"2023-07-20T07:05:27+00:00\",\"measurementMasterSet\":{\"preOpSet\":{\"preOps\":[{\"accuracy\":\"\",\"lensState\":\"\",\"importStatus\":\"import\",\"measurementMode\":\"Optical\",\"source\":\"ArgosBiometer\",\"sourceId\":\"90000006\",\"timeStamp\":\"2021-05-19T14:50:01+00:00\",\"sourceVersion\":\"1.1.0.7\",\"selectedElevenBoxSet\":\"\",\"biometry\":{\"accuracy\":\"\",\"measurementMode\":\"\",\"source\":\"ArgosBiometer\",\"sourceId\":\"90000006\",\"sourceVersion\":\"1.1.0.7\",\"importStatus\":\"import\",\"acd\":\"2\",\"al\":\"23.727093\",\"lt\":\"2\",\"wtw\":\"10\",\"acdStd\":\"0.000363\",\"alStd\":\"0.004539\",\"ltStd\":\"0.012145\",\"wtwStd\":\"\",\"biometries\":[],\"index\":\"\",\"coMeasurementIndex\":\"\",\"importedDataNameList\":[\"acd\",\"al\",\"lt\",\"cct\",\"aqueousDepth\",\"wtw\",\"source\"],\"isDataUnTrackImported\":false,\"isTrueAl\":true,\"imagePupil\":\"5.200191\",\"imagePx\":\"0.01732299999999931\",\"imagePy\":\"-0.0054560000000005715\",\"cct\":\"640.028625\",\"aqueousDepth\":\"1.359971375\",\"cctStd\":\"0.004629\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"84c07ffd-eda1-4b08-a9e9-2040d6e81023\",\"technician\":\"\",\"timeStamp\":\"2021-05-19T14:50:01+00:00\"},\"keratometry\":{\"accuracy\":\"\",\"measurementMode\":\"Phakic\",\"source\":\"ArgosBiometer\",\"sourceId\":\"90000006\",\"sourceVersion\":\"1.1.0.7\",\"importStatus\":\"import\",\"k1\":\"8.001131\",\"k2\":\"7.641847\",\"k1Std\":\"0.001313\",\"k2Std\":\"0.005623\",\"kUnits\":\"mm\",\"deviceRefractiveIndex\":\"1.337500\",\"steep\":\"96.000000\",\"cyl\":\"\",\"steepStd\":\"0.602346\",\"cylStd\":\"\",\"keratometries\":[],\"index\":\"\",\"coMeasurementIndex\":\"\",\"axisOnlyMeasurementFlag\":false,\"accuracyTk\":\"\",\"importStatusTk\":\"\",\"sourceTk\":\"\",\"sourceIdTk\":\"\",\"sourceVersionTk\":\"\",\"k1Tk\":\"\",\"k2Tk\":\"\",\"k1StdTk\":\"\",\"k2StdTk\":\"\",\"kUnitsTk\":\"\",\"deviceRefractiveIndexTk\":\"\",\"steepTk\":\"\",\"timeStampTk\":\"\",\"technicianTk\":\"\",\"cylTk\":\"\",\"steepStdTk\":\"\",\"cylStdTk\":\"\",\"refractiveIndexAqueousHumorTk\":\"\",\"refractiveIndexCorneaTk\":\"\",\"k1Quality\":\"1.000000\",\"k2Quality\":\"1.000000\",\"k1VesselQuality\":\"-1.000000\",\"k2VesselQuality\":\"-1.000000\",\"k1CornealPowerQuality\":\"1.500000\",\"k2CornealPowerQuality\":\"1.500000\",\"k1QualityTk\":\"\",\"k2QualityTk\":\"\",\"k1VesselQualityTk\":\"\",\"k2VesselQualityTk\":\"\",\"k1CornealPowerQualityTk\":\"\",\"k2CornealPowerQualityTk\":\"\",\"importedAnteriorKeratometryDataNameList\":[\"k1\",\"k2\",\"kUnits\",\"steep\",\"source\"],\"importedPosteriorKeratometryDataNameList\":[],\"isAnteriorKeratometryDataUnTrackImported\":false,\"isPosteriorKeratometryDataUnTrackImported\":false,\"response\":{},\"importType\":\"gps\",\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"1975f697-565f-4a81-8482-9462ac41e247\",\"technician\":\"\",\"timeStamp\":\"2021-05-19T14:50:01+00:00\"},\"imageSet\":{\"images\":[{\"clonedPatientId\":\"\",\"imageContentType\":\"png\",\"imageId\":\"0\",\"imageIndex\":\"0\",\"imageLimbusCenterX\":\"13.555674\",\"imageLimbusCenterY\":\"10.958748\",\"imageLimbusRadiusMajor\":\"6.391809\",\"imageLimbusRadiusMinor\":\"6.391809\",\"imageName\":\"0\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"13.510802\",\"imagePupilCenterY\":\"10.868076\",\"imagePupilRadiusMajor\":\"2.614403\",\"imagePupilRadiusMinor\":\"2.585788\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/e2cd06de-20cd-4b74-b96d-e21b1fe7f442\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"1280\",\"imageSizeHeight\":\"1024\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"RGB\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"REFERENCE\",\"imageDataId\":\"0\",\"imageBufferSize\":\"1511712\",\"imageCompression\":\"HDX\",\"imagePurkinjePositionX\":\"13.528125\",\"imagePurkinjePositionY\":\"10.862620\",\"imagePurkinjeQualityValue\":\"1.000000\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"de70fba4-43e1-4f12-a69b-a15e1179a98a\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"png\",\"imageId\":\"1\",\"imageIndex\":\"1\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"1\",\"imagePixelsPerMillimeter\":\"22.299528\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/4d9b645d-98b4-4859-9d25-d9fb98ec0175\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"2048\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"OCT\",\"imageDataId\":\"1\",\"imageBufferSize\":\"819200\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"0d53c855-96a7-4d81-8cfd-0e1022e868a0\",\"status\":\"entered-in-error\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"png\",\"imageId\":\"2\",\"imageIndex\":\"2\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"2\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/27b4a7d3-6e9f-43b4-89b7-39f180c2d258\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"300\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"KERATOMETRY\",\"imageDataId\":\"2\",\"imageBufferSize\":\"120000\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"1beccaf8-625d-4b69-9811-6b16a580a5de\",\"status\":\"entered-in-error\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"raw\",\"imageId\":\"0\",\"imageIndex\":\"3\",\"imageLimbusCenterX\":\"13.555674\",\"imageLimbusCenterY\":\"10.958748\",\"imageLimbusRadiusMajor\":\"6.391809\",\"imageLimbusRadiusMinor\":\"6.391809\",\"imageName\":\"0\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"13.510802\",\"imagePupilCenterY\":\"10.868076\",\"imagePupilRadiusMajor\":\"2.614403\",\"imagePupilRadiusMinor\":\"2.585788\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/cc920c69-2f71-4452-8e5b-2c3e531090ab\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"1280\",\"imageSizeHeight\":\"1024\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"RGB\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"REFERENCE\",\"imageDataId\":\"0\",\"imageBufferSize\":\"1511712\",\"imageCompression\":\"HDX\",\"imagePurkinjePositionX\":\"13.528125\",\"imagePurkinjePositionY\":\"10.862620\",\"imagePurkinjeQualityValue\":\"1.000000\",\"response\":{},\"eye\":\"OS\",\"guid\":\"a0551681-396b-4c73-803b-7f44881dae6e\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"raw\",\"imageId\":\"1\",\"imageIndex\":\"4\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"1\",\"imagePixelsPerMillimeter\":\"22.299528\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/39841331-5a1b-4930-935f-e787342274bc\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"2048\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"OCT\",\"imageDataId\":\"1\",\"imageBufferSize\":\"819200\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"eye\":\"OS\",\"guid\":\"7fe75293-926b-4437-a855-a56665c733d8\",\"status\":\"entered-in-error\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"raw\",\"imageId\":\"2\",\"imageIndex\":\"5\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"2\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/6ae2bed9-2972-4cfa-90d0-999e3d1dce05\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"300\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"KERATOMETRY\",\"imageDataId\":\"2\",\"imageBufferSize\":\"120000\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"eye\":\"OS\",\"guid\":\"d2ba98f6-ce27-4198-994a-3d84c2d1058e\",\"status\":\"entered-in-error\"}],\"selectedImage\":\"0\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"dbc82cd4-f807-4331-aa99-0fc05f07caae\"},\"formula\":\"\",\"sessionIds\":[\"0\"],\"surgeonCredentials\":{\"doctorId\":\"\",\"doctorOraSurgeonId\":\"\",\"oraId\":\"\",\"passwordHash\":\"\",\"userName\":\"\"},\"eyeStatus\":\"Phakic\",\"planningDevice\":\"\",\"dicomStudyId\":\"\",\"biometrySource\":\"\",\"biometryParentMeasurement\":\"\",\"biometryTechnician\":\"\",\"biometryTechnicianReference\":\"\",\"biometryTimeStamp\":\"\",\"imageSource\":\"\",\"imageParentMeasurement\":\"\",\"imageTechnician\":\"\",\"imageTechnicianReference\":\"\",\"imageTimeStamp\":\"\",\"importedDataNameList\":[\"measurementMode\",\"timeStamp\"],\"isDataUnTrackImported\":false,\"procedureRequestReference\":\"\",\"accessionId\":\"\",\"toricFormula\":\"\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"6f81a493-c531-4038-8133-f383418d478b\",\"lastUpdated\":\"2023-07-20T07:05:26+00:00\"}],\"visualAcuities\":[{\"bcnva\":\"\",\"bcva\":\"\",\"ucnva\":\"\",\"ucva\":\"\",\"eye\":\"OS\",\"uciva\":\"\",\"bciva\":\"\",\"visualAcuityUnit\":\"Decimal\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"guid\":\"756d2b26-0305-4aa8-84d9-116576ba2a86\"}],\"response\":{},\"guid\":\"08ed61aa-8788-4c40-b80c-9e173e63d1b9\"},\"intraOp\":{\"oraMeasurements\":[],\"surgeryProcedureStatus\":\"\",\"implantedLensFormula\":\"\",\"implantedLensBrand\":\"\",\"implantedLensModel\":\"\",\"implantedLensToricity\":\"\",\"implantedLensPower\":\"\",\"implantedLensImplementationAngle\":\"\",\"implantedLensPredictedRefraction\":\"\",\"oraImplantedLensFormula\":\"\",\"oraImplantedLensBrand\":\"\",\"oraImplantedLensModel\":\"\",\"oraImplantedLensToricity\":\"\",\"oraImplantedLensPower\":\"\",\"oraImplantedLensImplementationAngle\":\"\",\"oraImplantedLensPredictedRefraction\":\"\",\"dmmImplantedLensFormula\":\"\",\"dmmImplantedLensBrand\":\"\",\"dmmImplantedLensModel\":\"\",\"dmmImplantedLensToricity\":\"\",\"dmmImplantedLensPower\":\"\",\"dmmImplantedLensImplementationAngle\":\"\",\"dmmImplantedLensPredictedRefraction\":\"\",\"excludeFromOptimizations\":false,\"surgeryDate\":\"\",\"source\":\"\",\"plannedLensManufacturer\":\"\",\"plannedLensModel\":\"\",\"plannedLensPower\":\"\",\"plannedLensPredictedRefraction\":\"\",\"plannedLensToricity\":\"\",\"plannedLensImplementationAngle\":\"\",\"plannedLensFormula\":\"\",\"dhsAscPracticeId\":\"\",\"femtoValues\":[],\"isFromOra\":false,\"isFromGps\":false,\"response\":{},\"guid\":\"4a1ea4aa-389a-45de-81bd-8f284070ea5c\",\"centrations\":[]},\"response\":{},\"guid\":\"c5870130-e380-42f5-be9c-b537cc231e6a\",\"lastUpdated\":\"2023-07-20T07:05:27+00:00\"},\"tags\":[]}]"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://alcon.dhs.com/fhir/us/codes",
+                                "code": "cataract",
+                                "display": "cataract"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/ac91fb58-581b-48f0-b2f0-5258f4902423"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "status": "in-progress"
+                        }
+                    }
+                ]
+            },
+            "response": {
+                "status": "200 OK",
+                "etag": "W/\"ce33b264-26cb-11ee-9971-c7683f534047\"",
+                "lastModified": "2023-07-20T07:05:27.32524+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://cdr-alcon-qa.us-east.philips-healthsuite.com/store/fhir/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/CareTeam/c08166f4-ac1b-40e5-9eed-626fc5e90006",
+            "resource": {
+                "resourceType": "CareTeam",
+                "id": "c08166f4-ac1b-40e5-9eed-626fc5e90006",
+                "meta": {
+                    "versionId": "ce377f66-26cb-11ee-9971-e7064657a177",
+                    "lastUpdated": "2023-07-20T07:05:27.32524+00:00"
+                },
+                "status": "active",
+                "subject": {
+                    "reference": "Patient/ac91fb58-581b-48f0-b2f0-5258f4902423"
+                },
+                "managingOrganization": [
+                    {
+                        "reference": "Organization/7b7a2b45-f5d8-45bd-98ec-47e115cb6616"
+                    }
+                ]
+            },
+            "response": {
+                "status": "200 OK",
+                "etag": "W/\"ce377f66-26cb-11ee-9971-e7064657a177\"",
+                "lastModified": "2023-07-20T07:05:27.32524+00:00"
+            }
+        }
+    ]
+}
+{"resourceType":"Bundle","type":"transaction-response","entry":[{"fullUrl":"https://cdr-alcon-qa.us-east.philips-healthsuite.com/store/fhir/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/Patient/ac91fb58-581b-48f0-b2f0-5258f4902423","resource":{"resourceType":"Patient","id":"ac91fb58-581b-48f0-b2f0-5258f4902423","meta":{"versionId":"ce1ff558-26cb-11ee-9971-c3fe815ad9f8","lastUpdated":"2023-07-20T07:05:27.32524+00:00","tag":[{"system":"http://alcon.dhs.com/fhir/us/codes","code":"created-by-crs","display":"created-by-crs"},{"system":"http://alcon.dhs.com/fhir/us/codes","code":"reconcilliation-needed","display":"reconcilliation-needed"},{"system":"http://alcon.dhs.com/fhir/us/codes","code":"patient-paid-practice","display":"patient-paid-practice"},{"system":"http://alcon.dhs.com/fhir/us/codes","code":"case-unassigned","display":"case-unassigned"}]},"extension":[{"url":"http://alcon.dhs.com/fhir/us/extensions/patient-additional-profile-information","valueString":"{\"consultationStageStatusOd\":\"Incomplete\",\"consultationStageStatusOs\":\"Incomplete\",\"odActiveCaseStatus\":\"false\",\"workflowStatusOd\":\"patient-workflow-status-add-new-procedure\",\"osActiveCaseStatus\":\"false\",\"workflowStatusOs\":\"patient-workflow-status-add-new-procedure\",\"organizationName\":\"PPFourDotZerOneA\"}"},{"url":"http://alcon.dhs.com/fhir/us/extensions/patient-simple-list-summary","valueString":"[{\"careTeamReferences\":[],\"careTeams\":[],\"caseName\":\"Default\",\"caseStatus\":\"In-Progress\",\"eye\":\"OU\",\"eyeAssessment\":{\"lastUpdated\":\"2023-07-20T07:05:25+00:00\",\"guid\":\"d56751ff-99e6-40d0-af0f-ed8ca40ab3ab\",\"leftOs\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false},\"rightOd\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false}},\"guid\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"lastUpdated\":\"2023-07-20T07:05:27+00:00\",\"status\":\"Measurement,Complete,Consultation,Incomplete,Planning,Incomplete,Intra-Op,Incomplete,Post-Op,Incomplete\",\"surgeryType\":\"\",\"tags\":[]}]"}],"identifier":[{"use":"usual","type":{"coding":[{"system":"http://hl7.org/fhir/v2/0203","code":"MR","display":"Medical Record Number"}]},"system":"http://alcon.dhs.com/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/mrn","value":"5PH1J7EUEKYKNW12"}],"active":true,"name":[{"use":"official","text":"DAVID COPPERFIELD","family":"COPPERFIELD","given":["DAVID"]}],"gender":"unknown","birthDate":"1992-01-01","managingOrganization":{"reference":"Organization/7b7a2b45-f5d8-45bd-98ec-47e115cb6616"}},"response":{"status":"200 OK","etag":"W/\"ce1ff558-26cb-11ee-9971-c3fe815ad9f8\"","lastModified":"2023-07-20T07:05:27.32524+00:00"}},{"fullUrl":"https://cdr-alcon-qa.us-east.philips-healthsuite.com/store/fhir/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/CarePlan/c38e3312-313a-43e5-8983-5bf98a18400c","resource":{"resourceType":"CarePlan","id":"c38e3312-313a-43e5-8983-5bf98a18400c","meta":{"versionId":"ce33b264-26cb-11ee-9971-c7683f534047","lastUpdated":"2023-07-20T07:05:27.32524+00:00","tag":[{"system":"http://alcon.dhs.com/fhir/us/codes","code":"created-by-crs","display":"created-by-crs"},{"system":"http://alcon.dhs.com/fhir/us/codes","code":"reconcilliation-needed","display":"reconcilliation-needed"},{"system":"http://alcon.dhs.com/fhir/us/codes","code":"patient-paid-practice","display":"patient-paid-practice"}]},"extension":[{"url":"http://alcon.dhs.com/fhir/us/extensions/careplan-cataractplanner-details","valueString":"[{\"carePlanResourceStatus\":\"In-Progress\",\"caseName\":\"Default\",\"excludeFromOptimizations\":false,\"notes\":[],\"procedureRequests\":[],\"status\":\"Measurement,Complete,Consultation,Incomplete,Planning,Incomplete,Intra-Op,Incomplete,Post-Op,Incomplete\",\"surgicalPlans\":[],\"surgicalPlanGuids\":[],\"eye\":\"OU\",\"eyeAssessment\":{\"lastUpdated\":\"2023-07-20T07:05:25+00:00\",\"guid\":\"d56751ff-99e6-40d0-af0f-ed8ca40ab3ab\",\"leftOs\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false},\"rightOd\":{\"ocularDiseases\":[],\"postRefractive\":\"No Post-Refractive\",\"status\":\"Phakic\",\"cataractType\":[],\"vitreousBody\":\"Normal\",\"refractiveSurgeries\":[],\"lensSurgeries\":[],\"otherSurgeries\":[],\"refractionVisualAcuityAssessments\":[],\"monoVision\":false}},\"guid\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"lastUpdated\":\"2023-07-20T07:05:27+00:00\",\"measurementMasterSet\":{\"preOpSet\":{\"preOps\":[{\"accuracy\":\"\",\"lensState\":\"\",\"importStatus\":\"import\",\"measurementMode\":\"Optical\",\"source\":\"ArgosBiometer\",\"sourceId\":\"90000006\",\"timeStamp\":\"2021-05-19T14:50:01+00:00\",\"sourceVersion\":\"1.1.0.7\",\"selectedElevenBoxSet\":\"\",\"biometry\":{\"accuracy\":\"\",\"measurementMode\":\"\",\"source\":\"ArgosBiometer\",\"sourceId\":\"90000006\",\"sourceVersion\":\"1.1.0.7\",\"importStatus\":\"import\",\"acd\":\"2\",\"al\":\"23.727093\",\"lt\":\"2\",\"wtw\":\"10\",\"acdStd\":\"0.000363\",\"alStd\":\"0.004539\",\"ltStd\":\"0.012145\",\"wtwStd\":\"\",\"biometries\":[],\"index\":\"\",\"coMeasurementIndex\":\"\",\"importedDataNameList\":[\"acd\",\"al\",\"lt\",\"cct\",\"aqueousDepth\",\"wtw\",\"source\"],\"isDataUnTrackImported\":false,\"isTrueAl\":true,\"imagePupil\":\"5.200191\",\"imagePx\":\"0.01732299999999931\",\"imagePy\":\"-0.0054560000000005715\",\"cct\":\"640.028625\",\"aqueousDepth\":\"1.359971375\",\"cctStd\":\"0.004629\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"84c07ffd-eda1-4b08-a9e9-2040d6e81023\",\"technician\":\"\",\"timeStamp\":\"2021-05-19T14:50:01+00:00\"},\"keratometry\":{\"accuracy\":\"\",\"measurementMode\":\"Phakic\",\"source\":\"ArgosBiometer\",\"sourceId\":\"90000006\",\"sourceVersion\":\"1.1.0.7\",\"importStatus\":\"import\",\"k1\":\"8.001131\",\"k2\":\"7.641847\",\"k1Std\":\"0.001313\",\"k2Std\":\"0.005623\",\"kUnits\":\"mm\",\"deviceRefractiveIndex\":\"1.337500\",\"steep\":\"96.000000\",\"cyl\":\"\",\"steepStd\":\"0.602346\",\"cylStd\":\"\",\"keratometries\":[],\"index\":\"\",\"coMeasurementIndex\":\"\",\"axisOnlyMeasurementFlag\":false,\"accuracyTk\":\"\",\"importStatusTk\":\"\",\"sourceTk\":\"\",\"sourceIdTk\":\"\",\"sourceVersionTk\":\"\",\"k1Tk\":\"\",\"k2Tk\":\"\",\"k1StdTk\":\"\",\"k2StdTk\":\"\",\"kUnitsTk\":\"\",\"deviceRefractiveIndexTk\":\"\",\"steepTk\":\"\",\"timeStampTk\":\"\",\"technicianTk\":\"\",\"cylTk\":\"\",\"steepStdTk\":\"\",\"cylStdTk\":\"\",\"refractiveIndexAqueousHumorTk\":\"\",\"refractiveIndexCorneaTk\":\"\",\"k1Quality\":\"1.000000\",\"k2Quality\":\"1.000000\",\"k1VesselQuality\":\"-1.000000\",\"k2VesselQuality\":\"-1.000000\",\"k1CornealPowerQuality\":\"1.500000\",\"k2CornealPowerQuality\":\"1.500000\",\"k1QualityTk\":\"\",\"k2QualityTk\":\"\",\"k1VesselQualityTk\":\"\",\"k2VesselQualityTk\":\"\",\"k1CornealPowerQualityTk\":\"\",\"k2CornealPowerQualityTk\":\"\",\"importedAnteriorKeratometryDataNameList\":[\"k1\",\"k2\",\"kUnits\",\"steep\",\"source\"],\"importedPosteriorKeratometryDataNameList\":[],\"isAnteriorKeratometryDataUnTrackImported\":false,\"isPosteriorKeratometryDataUnTrackImported\":false,\"response\":{},\"importType\":\"gps\",\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"1975f697-565f-4a81-8482-9462ac41e247\",\"technician\":\"\",\"timeStamp\":\"2021-05-19T14:50:01+00:00\"},\"imageSet\":{\"images\":[{\"clonedPatientId\":\"\",\"imageContentType\":\"png\",\"imageId\":\"0\",\"imageIndex\":\"0\",\"imageLimbusCenterX\":\"13.555674\",\"imageLimbusCenterY\":\"10.958748\",\"imageLimbusRadiusMajor\":\"6.391809\",\"imageLimbusRadiusMinor\":\"6.391809\",\"imageName\":\"0\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"13.510802\",\"imagePupilCenterY\":\"10.868076\",\"imagePupilRadiusMajor\":\"2.614403\",\"imagePupilRadiusMinor\":\"2.585788\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/e2cd06de-20cd-4b74-b96d-e21b1fe7f442\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"1280\",\"imageSizeHeight\":\"1024\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"RGB\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"REFERENCE\",\"imageDataId\":\"0\",\"imageBufferSize\":\"1511712\",\"imageCompression\":\"HDX\",\"imagePurkinjePositionX\":\"13.528125\",\"imagePurkinjePositionY\":\"10.862620\",\"imagePurkinjeQualityValue\":\"1.000000\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"de70fba4-43e1-4f12-a69b-a15e1179a98a\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"png\",\"imageId\":\"1\",\"imageIndex\":\"1\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"1\",\"imagePixelsPerMillimeter\":\"22.299528\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/4d9b645d-98b4-4859-9d25-d9fb98ec0175\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"2048\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"OCT\",\"imageDataId\":\"1\",\"imageBufferSize\":\"819200\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"0d53c855-96a7-4d81-8cfd-0e1022e868a0\",\"status\":\"entered-in-error\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"png\",\"imageId\":\"2\",\"imageIndex\":\"2\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"2\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/27b4a7d3-6e9f-43b4-89b7-39f180c2d258\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"300\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"KERATOMETRY\",\"imageDataId\":\"2\",\"imageBufferSize\":\"120000\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"1beccaf8-625d-4b69-9811-6b16a580a5de\",\"status\":\"entered-in-error\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"raw\",\"imageId\":\"0\",\"imageIndex\":\"3\",\"imageLimbusCenterX\":\"13.555674\",\"imageLimbusCenterY\":\"10.958748\",\"imageLimbusRadiusMajor\":\"6.391809\",\"imageLimbusRadiusMinor\":\"6.391809\",\"imageName\":\"0\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"13.510802\",\"imagePupilCenterY\":\"10.868076\",\"imagePupilRadiusMajor\":\"2.614403\",\"imagePupilRadiusMinor\":\"2.585788\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/cc920c69-2f71-4452-8e5b-2c3e531090ab\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"1280\",\"imageSizeHeight\":\"1024\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"RGB\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"REFERENCE\",\"imageDataId\":\"0\",\"imageBufferSize\":\"1511712\",\"imageCompression\":\"HDX\",\"imagePurkinjePositionX\":\"13.528125\",\"imagePurkinjePositionY\":\"10.862620\",\"imagePurkinjeQualityValue\":\"1.000000\",\"response\":{},\"eye\":\"OS\",\"guid\":\"a0551681-396b-4c73-803b-7f44881dae6e\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"raw\",\"imageId\":\"1\",\"imageIndex\":\"4\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"1\",\"imagePixelsPerMillimeter\":\"22.299528\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/39841331-5a1b-4930-935f-e787342274bc\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"2048\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"OCT\",\"imageDataId\":\"1\",\"imageBufferSize\":\"819200\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"eye\":\"OS\",\"guid\":\"7fe75293-926b-4437-a855-a56665c733d8\",\"status\":\"entered-in-error\"},{\"clonedPatientId\":\"\",\"imageContentType\":\"raw\",\"imageId\":\"2\",\"imageIndex\":\"5\",\"imageLimbusCenterX\":\"\",\"imageLimbusCenterY\":\"\",\"imageLimbusRadiusMajor\":\"\",\"imageLimbusRadiusMinor\":\"\",\"imageName\":\"2\",\"imagePixelsPerMillimeter\":\"46.910908\",\"imagePresignedUri\":\"\",\"imagePupilCenterX\":\"\",\"imagePupilCenterY\":\"\",\"imagePupilRadiusMajor\":\"\",\"imagePupilRadiusMinor\":\"\",\"imageRelativePath\":\"7b7a2b45-f5d8-45bd-98ec-47e115cb6616/pre-op-images/6ae2bed9-2972-4cfa-90d0-999e3d1dce05\",\"imageSource\":\"ArgosBiometer\",\"importStatus\":\"import\",\"source\":\"ArgosBiometer\",\"imageValue\":\"\",\"imageSizeUnits\":\"pixels\",\"imageSizeWidth\":\"300\",\"imageSizeHeight\":\"300\",\"imageScaleUnits\":\"percent\",\"imageScaleValueX\":\"1.000000\",\"imageScaleValueY\":\"1.000000\",\"imageRotation\":\"0.000000\",\"imageRotationUnits\":\"radians\",\"imageColorSpace\":\"GRAY8\",\"imageBayerPattern\":\"\",\"imageTypeName\":\"KERATOMETRY\",\"imageDataId\":\"2\",\"imageBufferSize\":\"120000\",\"imageCompression\":\"b64raw\",\"imagePurkinjePositionX\":\"\",\"imagePurkinjePositionY\":\"\",\"imagePurkinjeQualityValue\":\"\",\"response\":{},\"eye\":\"OS\",\"guid\":\"d2ba98f6-ce27-4198-994a-3d84c2d1058e\",\"status\":\"entered-in-error\"}],\"selectedImage\":\"0\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"dbc82cd4-f807-4331-aa99-0fc05f07caae\"},\"formula\":\"\",\"sessionIds\":[\"0\"],\"surgeonCredentials\":{\"doctorId\":\"\",\"doctorOraSurgeonId\":\"\",\"oraId\":\"\",\"passwordHash\":\"\",\"userName\":\"\"},\"eyeStatus\":\"Phakic\",\"planningDevice\":\"\",\"dicomStudyId\":\"\",\"biometrySource\":\"\",\"biometryParentMeasurement\":\"\",\"biometryTechnician\":\"\",\"biometryTechnicianReference\":\"\",\"biometryTimeStamp\":\"\",\"imageSource\":\"\",\"imageParentMeasurement\":\"\",\"imageTechnician\":\"\",\"imageTechnicianReference\":\"\",\"imageTimeStamp\":\"\",\"importedDataNameList\":[\"measurementMode\",\"timeStamp\"],\"isDataUnTrackImported\":false,\"procedureRequestReference\":\"\",\"accessionId\":\"\",\"toricFormula\":\"\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"eye\":\"OS\",\"guid\":\"6f81a493-c531-4038-8133-f383418d478b\",\"lastUpdated\":\"2023-07-20T07:05:26+00:00\"}],\"visualAcuities\":[{\"bcnva\":\"\",\"bcva\":\"\",\"ucnva\":\"\",\"ucva\":\"\",\"eye\":\"OS\",\"uciva\":\"\",\"bciva\":\"\",\"visualAcuityUnit\":\"Decimal\",\"response\":{},\"caseId\":\"a18c4e30-c52d-41c1-94d4-be961387d19a\",\"guid\":\"756d2b26-0305-4aa8-84d9-116576ba2a86\"}],\"response\":{},\"guid\":\"08ed61aa-8788-4c40-b80c-9e173e63d1b9\"},\"intraOp\":{\"oraMeasurements\":[],\"surgeryProcedureStatus\":\"\",\"implantedLensFormula\":\"\",\"implantedLensBrand\":\"\",\"implantedLensModel\":\"\",\"implantedLensToricity\":\"\",\"implantedLensPower\":\"\",\"implantedLensImplementationAngle\":\"\",\"implantedLensPredictedRefraction\":\"\",\"oraImplantedLensFormula\":\"\",\"oraImplantedLensBrand\":\"\",\"oraImplantedLensModel\":\"\",\"oraImplantedLensToricity\":\"\",\"oraImplantedLensPower\":\"\",\"oraImplantedLensImplementationAngle\":\"\",\"oraImplantedLensPredictedRefraction\":\"\",\"dmmImplantedLensFormula\":\"\",\"dmmImplantedLensBrand\":\"\",\"dmmImplantedLensModel\":\"\",\"dmmImplantedLensToricity\":\"\",\"dmmImplantedLensPower\":\"\",\"dmmImplantedLensImplementationAngle\":\"\",\"dmmImplantedLensPredictedRefraction\":\"\",\"excludeFromOptimizations\":false,\"surgeryDate\":\"\",\"source\":\"\",\"plannedLensManufacturer\":\"\",\"plannedLensModel\":\"\",\"plannedLensPower\":\"\",\"plannedLensPredictedRefraction\":\"\",\"plannedLensToricity\":\"\",\"plannedLensImplementationAngle\":\"\",\"plannedLensFormula\":\"\",\"dhsAscPracticeId\":\"\",\"femtoValues\":[],\"isFromOra\":false,\"isFromGps\":false,\"response\":{},\"guid\":\"4a1ea4aa-389a-45de-81bd-8f284070ea5c\",\"centrations\":[]},\"response\":{},\"guid\":\"c5870130-e380-42f5-be9c-b537cc231e6a\",\"lastUpdated\":\"2023-07-20T07:05:27+00:00\"},\"tags\":[]}]"}],"status":"active","intent":"plan","category":[{"coding":[{"system":"http://alcon.dhs.com/fhir/us/codes","code":"cataract","display":"cataract"}]}],"subject":{"reference":"Patient/ac91fb58-581b-48f0-b2f0-5258f4902423"},"activity":[{"detail":{"status":"in-progress"}}]},"response":{"status":"200 OK","etag":"W/\"ce33b264-26cb-11ee-9971-c7683f534047\"","lastModified":"2023-07-20T07:05:27.32524+00:00"}},{"fullUrl":"https://cdr-alcon-qa.us-east.philips-healthsuite.com/store/fhir/7b7a2b45-f5d8-45bd-98ec-47e115cb6616/CareTeam/c08166f4-ac1b-40e5-9eed-626fc5e90006","resource":{"resourceType":"CareTeam","id":"c08166f4-ac1b-40e5-9eed-626fc5e90006","meta":{"versionId":"ce377f66-26cb-11ee-9971-e7064657a177","lastUpdated":"2023-07-20T07:05:27.32524+00:00"},"status":"active","subject":{"reference":"Patient/ac91fb58-581b-48f0-b2f0-5258f4902423"},"managingOrganization":[{"reference":"Organization/7b7a2b45-f5d8-45bd-98ec-47e115cb6616"}]},"response":{"status":"200 OK","etag":"W/\"ce377f66-26cb-11ee-9971-e7064657a177\"","lastModified":"2023-07-20T07:05:27.32524+00:00"}}]}
+]]></system-out>
+  </testcase>
+</testsuite>

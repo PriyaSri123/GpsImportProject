@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="16" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-20T12:33:43 IST" name="Suite" finished-at="2023-07-20T12:35:27 IST" duration-ms="104194">
+    <groups>
+      <group name="encode">
+        <method signature="gpsFileCreationToImportCombined.UrlDetails(java.lang.String)[pri:1, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="UrlDetails" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.getaccesstest(java.lang.String,java.lang.String)[pri:2, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="getaccesstest" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.alconIntrospect()[pri:3, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="alconIntrospect" class="gpsImport.gpsFileCreationToImportCombined"/>
+      </group> <!-- encode -->
+      <group name="importwithoutpid">
+        <method signature="gpsFileCreationToImportCombined.UrlDetails(java.lang.String)[pri:1, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="UrlDetails" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.getaccesstest(java.lang.String,java.lang.String)[pri:2, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="getaccesstest" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.alconIntrospect()[pri:3, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="alconIntrospect" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.gpsFileImportWithoutPatientId(java.lang.String)[pri:12, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="gpsFileImportWithoutPatientId" class="gpsImport.gpsFileCreationToImportCombined"/>
+      </group> <!-- importwithoutpid -->
+      <group name="upload">
+        <method signature="gpsFileCreationToImportCombined.UrlDetails(java.lang.String)[pri:1, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="UrlDetails" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.getaccesstest(java.lang.String,java.lang.String)[pri:2, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="getaccesstest" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.alconIntrospect()[pri:3, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="alconIntrospect" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.getAccess()[pri:7, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="getAccess" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.getKeys()[pri:8, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="getKeys" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.fileEdit()[pri:9, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="fileEdit" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.cmdPromptFn(java.lang.String)[pri:10, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="cmdPromptFn" class="gpsImport.gpsFileCreationToImportCombined"/>
+      </group> <!-- upload -->
+      <group name="decode">
+        <method signature="gpsFileCreationToImportCombined.UrlDetails(java.lang.String)[pri:1, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="UrlDetails" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.getaccesstest(java.lang.String,java.lang.String)[pri:2, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="getaccesstest" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.alconIntrospect()[pri:3, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="alconIntrospect" class="gpsImport.gpsFileCreationToImportCombined"/>
+      </group> <!-- decode -->
+      <group name="importwithpid">
+        <method signature="gpsFileCreationToImportCombined.UrlDetails(java.lang.String)[pri:1, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="UrlDetails" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.getaccesstest(java.lang.String,java.lang.String)[pri:2, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="getaccesstest" class="gpsImport.gpsFileCreationToImportCombined"/>
+        <method signature="gpsFileCreationToImportCombined.alconIntrospect()[pri:3, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" name="alconIntrospect" class="gpsImport.gpsFileCreationToImportCombined"/>
+      </group> <!-- importwithpid -->
+    </groups>
+    <test started-at="2023-07-20T12:33:43 IST" name="Test" finished-at="2023-07-20T12:35:27 IST" duration-ms="104194">
+      <class name="gpsImport.gpsFileCreationToImportCombined">
+        <test-method signature="UrlDetails(java.lang.String)[pri:1, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:33:43 IST" name="UrlDetails" finished-at="2023-07-20T12:33:43 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlDetails -->
+        <test-method signature="getaccesstest(java.lang.String,java.lang.String)[pri:2, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:33:43 IST" name="getaccesstest" finished-at="2023-07-20T12:33:54 IST" duration-ms="10302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surgeon_priyafour.zeronea@alcon.testinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alcon@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getaccesstest -->
+        <test-method signature="alconIntrospect()[pri:3, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:33:54 IST" name="alconIntrospect" finished-at="2023-07-20T12:33:55 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alconIntrospect -->
+        <test-method signature="getAccess()[pri:7, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:33:55 IST" name="getAccess" finished-at="2023-07-20T12:33:57 IST" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccess -->
+        <test-method signature="getKeys()[pri:8, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:33:57 IST" name="getKeys" finished-at="2023-07-20T12:33:58 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getKeys -->
+        <test-method signature="fileEdit()[pri:9, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:33:58 IST" name="fileEdit" finished-at="2023-07-20T12:33:58 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileEdit -->
+        <test-method signature="cmdPromptFn(java.lang.String)[pri:10, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:33:58 IST" name="cmdPromptFn" finished-at="2023-07-20T12:34:49 IST" duration-ms="51562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Argos_validmeasurement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cmdPromptFn -->
+        <test-method signature="gpsFileImportWithoutPatientId(java.lang.String)[pri:12, instance:gpsImport.gpsFileCreationToImportCombined@3d5c822d]" started-at="2023-07-20T12:34:49 IST" name="gpsFileImportWithoutPatientId" finished-at="2023-07-20T12:35:27 IST" duration-ms="37846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Argos_validmeasurement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gpsFileImportWithoutPatientId -->
+      </class> <!-- gpsImport.gpsFileCreationToImportCombined -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

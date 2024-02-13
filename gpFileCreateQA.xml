@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="environment" value="qa"></parameter>
+		<parameter name="username"
+			value="surgeonone.test@alcon.testinator.com"></parameter>
+		<parameter name="password" value="Test@123"></parameter>
+		<groups>
+			<run>
+				<include name="encode" />
+			</run>
+		</groups>
+		<parameter name="gpsName" value="OnePlannerFive"></parameter>
+		<classes>
+			<class name="gpsImport.gpsFileCreationToImportCombined" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" verbose="10">
+	<test thread-count="5" name="SCEONE">
+		<parameter name="environment" value="qa"></parameter>
+		<parameter name="username"
+			value="surgeon_priyafour.zeronea@alcon.testinator.com"></parameter>
+		<parameter name="password" value="Alcon@2023"></parameter>
+		<groups>
+			<run>
+				<include name="decode" />
+			</run>
+		</groups>
+		<parameter name="gpsName" value="Argos_Invalid_Post_ref"></parameter>
+		<classes>
+			<class name="gpsImport.gpsFileCreationToImportCombined" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="4" name="SCETWO">
+		<parameter name="environment" value="vnv"></parameter>
+		<parameter name="username"
+			value="surgeon_priyafivezerothree@alcon.testinator.com"></parameter>
+		<parameter name="password" value="Test@1234"></parameter>
+		<groups>
+			<run>
+				<include name="upload" />
+				<include name="importwithpid" />
+			</run>
+		</groups>
+		<parameter name="gpsName" value="FF_OS_1950_04_04_10AC0C41F51A228E0B177F2C461AC70A_5142A0B5D923FFFBB10DA4769A0807D7"></parameter>
+		<parameter name="patientId"
+			value="9942d168-0a01-488a-ba72-005d639ab663"></parameter>
+		<classes>
+			<class name="gpsImport.gpsFileCreationToImportCombined" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

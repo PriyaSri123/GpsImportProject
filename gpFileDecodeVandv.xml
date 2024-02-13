@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="environment" value="vnv"></parameter>
+		<parameter name="username"
+			value="priya.fivedotzerofive@alcon.testinator.com"></parameter>
+		<parameter name="password" value="Alcon@123"></parameter>
+		<groups>
+			<run>
+				<include name="decode" />
+			</run>
+		</groups>
+		<parameter name="gpsName" value="MISSINGPKTWO"></parameter>
+		<classes>
+			<class name="gpsImport.gpsFileCreationToImportCombined" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<parameter name="environment" value="vnv"></parameter>
+	<parameter name="username"
+		value="surgeon_priya.fiveofive@alcon.testinator.com"></parameter>
+	<parameter name="password" value="Alcon@2024"></parameter>
+	<test thread-count="5" name="TestOne">
+		<groups>
+			<run>
+				<include name="encode" />
+			</run>
+		</groups>
+		<parameter name="gpsName" value="TESTSOURCEMISSING"></parameter>
+		<classes>
+			<class name="gpsImport.gpsFileCreationToImportCombined" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="4" name="TestTwo">
+		<groups>
+			<run>
+				<include name="upload" />
+				<include name="importwithoutpid" />
+			</run>
+		</groups>
+		<parameter name="gpsName" value="TESTSOURCEMISSING"></parameter>
+		<classes>
+			<class name="gpsImport.gpsFileCreationToImportCombined" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

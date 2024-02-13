@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<parameter name="environment" value="vnv"></parameter>
+	<parameter name="username"
+		value="priya.fivedotzerofive@alcon.testinator.com"></parameter>
+	<parameter name="password" value="Alcon@123"></parameter>
+	<test thread-count="5" name="Test">
+	    <parameter name="gpsNameToBeDecoded" value="MA60MA_NoSurgeryDate"></parameter>
+		<parameter name="fhirtype" value="CRS"></parameter>
+		<parameter name="firstName" value="TEST"></parameter>
+		<parameter name="lastName" value="BOTH-EYES-CHECK"></parameter>
+		<parameter name="patientMrn" value="BOTH-EYES-CHECK-OU"></parameter>
+		<parameter name="gender" value="female"></parameter>
+		<parameter name="yyyymmdd" value="2000-08-28"></parameter>
+		<parameter name="gpsfileName" value="MA60MAGpsTest"></parameter>
+		<parameter name="dhsAscId"
+			value="4ce36276-c7e4-489e-80a7-c82e7e3ed016	"></parameter>
+		<groups>
+			<run>
+				<include name="gpsDecodeAndEncryptUsingB64" />
+				<include name="patientCreation" />
+				<include name="onePlanner" />
+				<include name="getPatientDetailsById" />
+			</run>
+		</groups>
+		<classes>
+			<class name="gpsImport.onePlanner" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
